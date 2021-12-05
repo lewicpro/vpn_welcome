@@ -1,0 +1,57 @@
+<h6 class="text-uppercase">MY ACCOUNT</h6>
+<hr>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Accounts Table</h5>
+    <div class="table-responsive">
+      <table class="table" style="text-align: center; min-height:300px">
+        <thead>
+          <tr>
+            <th scope="col" style="text-align: center; ">#</th>
+            <th scope="col" class="text-align: center; ">Username</th>
+            <th scope="col" style="text-align: center; ">Type</th>
+            <th scope="col" style="text-align: center; ">Usage</th>
+            <th scope="col" style="text-align: center; ">Fund</th>
+            <th scope="col" style="text-align: center;">Action</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr >
+            <th scope="row">1</th>
+            <td style="text-align: center; ">Lewis wanjara</td>
+            <td style="text-align: center; ">gold</td>
+            <td style="text-align: center; ">900mb</td>
+            <td style="text-align: center;">60$</td>
+            <td>
+              <div ngbDropdown class="btn-group m-1" >
+                <!-- <button type="button" class="btn btn-light">Dropdown</button> -->
+                <button type="button" class="btn btn-light split-btn-light" id="dropdownSplit6" ngbDropdownToggle> <span class="caret"></span>
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownSplit6">
+                  <a href="javaScript:;" ngbDropdownItem>Pause</a>
+                  <a href="javaScript:;" ngbDropdownItem>Change pswd</a>
+                  <!-- <a href="javaScript:;" ngbDropdownItem>Something else here</a> -->
+                  <div class="dropdown-divider"></div>
+                  <a href="javaScript:;" class="btn btn-danger" ngbDropdownItem>Delete</a>
+                </div>
+              </div>
+            </td>
+
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="card-body">
+  <h6>Add new account</h6>
+  <hr>
+  <!-- <a href="javascript:" class="btn-social btn-social-circle btn-facebook m-1"><i class="fa fa-facebook"></i></a> -->
+
+  <a href="javascript:" class="btn-social btn-social-circle btn-success m-1"><i class="fa fa-plus-square"></i></a>
+
+
+</div>
